@@ -4,7 +4,7 @@ import {
   getById,
   getAllPeople,
   removePerson,
-} from "/src/Common/Services/PullDBService";
+} from "../Common/Services/PullDBService.js";
 import MainForm from "./MainGet";
 
 /* STATEFUL PARENT COMPONENT */
