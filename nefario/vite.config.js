@@ -11,4 +11,7 @@ export default defineConfig({
        parse: path.resolve(__dirname, './node_modules/parse/dist/parse.min.js')
     },
   },
+  server: {
+    hmr: false,
+  },
 })
